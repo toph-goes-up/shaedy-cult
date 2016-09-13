@@ -1,5 +1,6 @@
 body {
     background-color: #53507E;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -10,15 +11,63 @@ header{
 
 #topnav {
     float: right;
-    margin: 12px 0 0 35px;
-    background-color: white;
 }
 
 #topnav a {
+    margin: 12px 0 0 35px;
     text-decoration: none;
     color: #B1AEDE;
     font-weight: 800;
     font-size: 12px;
+}
+
+#topnav a:hover {
+    color: white;
+}
+
+#topnav a:active {
+    color: white;
+    border-bottom: #FF8ED8 2px solid;
+}
+
+#leftarea {
+    width: 550px;
+    float: left;
+}
+
+#rightarea {
+    width: 550px;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #B1AEDE;
+    margin-bottom: 120px;
+}
+
+
+button {
+    height: 80px;
+    padding: 30px 45px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+    background-color: #FF8ED8;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0 0 30px rgba(64, 61, 101 0.75);
+    color: #403D65;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 52px;
+    color: white;
+    line-height: 56px;
+    margin-bottom: 35px;
 }
 
 ul{
@@ -27,8 +76,4 @@ ul{
 
 li {
     display: inline;
-}
-
-#topnav a:hover {
-    color: white;
 }
