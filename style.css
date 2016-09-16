@@ -38,6 +38,9 @@ header{
 #rightarea {
     width: 550px;
     float: left;
+}
+
+#righttext{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 20px;
@@ -45,11 +48,11 @@ header{
     margin-bottom: 120px;
 }
 
-
 button {
     height: 80px;
     padding: 30px 45px;
     border-radius: 40px;
+    border-width: 0px;
     box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
     background-color: #FF8ED8;
     font-weight: 800;
@@ -76,4 +79,12 @@ ul{
 
 li {
     display: inline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: 100px;
+    height: 105px;
+    background-color: #403D65
 }
