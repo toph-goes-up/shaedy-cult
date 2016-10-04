@@ -1,12 +1,19 @@
 body {
     background-color: #53507E;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction:column;
 }
 
 header{
+    order:0;
     height: 37px;
     width: 1100px;
     margin: 30px auto 115px auto;
+}
+
+#logo img{
+    height: 37px;
 }
 
 #topnav {
@@ -35,7 +42,15 @@ header{
     float: left;
 }
 
+#mainarea{
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    align-self: auto;
+}
+
 #rightarea {
+    align-self: flex-end;
     width: 550px;
     float: left;
 }
@@ -82,9 +97,43 @@ li {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    order: 2;
     margin-top: 100px;
     height: 105px;
-    background-color: #403D65
+    background-color: #403D65;
+}
+
+#foottop{
+    width: 1100px;
+    height: 34px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+#botnav{
+    align-self: flex-start;
+    font-weight: 800;
+    font-size: 12px;
+    color: #B1AEDE;
+    margin: 10px 35px 0 0;
+}
+#botnav a:hover{
+    color: white;
+}
+#social img{
+    margin-left: 10px;
+    width: 34px;
+}
+#social img:hover{
+    opacity: .75;
+}
+#footbot{
+    height 35px;
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #B1AEDE;
+    text-align: center;
 }
