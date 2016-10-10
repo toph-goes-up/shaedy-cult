@@ -5,6 +5,12 @@ body {
     flex-direction:column;
 }
 
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header{
     order:0;
     height: 37px;
@@ -96,6 +102,68 @@ li {
     display: inline;
 }
 
+.textbox{
+  background-color: white;
+  width: 750px;
+  margin: 0 auto 90px auto;
+  padding: 80px;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+.textbox h2{
+  font weight: 800;
+  font size 24px;
+  color: #FF8ED8;
+  margin-botom: 35px;
+}
+
+.textbox .name{
+  color: #5C5C5C;
+}
+
+.textbox h3{
+  font weight: 800;
+  font size 20px;
+  color: #FF8ED8;
+  margin-botom: 10px;
+}
+
+.textbox p{
+  font-family: 'Roboto Slab', serif;
+  font weight: 400;
+  font size: 18px;
+  font color: #5C5C5C;
+  max-width: 480px;
+}
+
+#jeb{
+  padding: 80px 80px 80px 180px;
+  position: relative;
+}
+
+#jez{
+  padding: 80px 180px 80px 80px;
+  position: relative;
+}
+
+#jeb img{
+  width: 208px;
+  position: absolute;
+  top: -40px;
+  left: -70px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+#jez img{
+  width: 208px;
+  position: absolute;
+  top: -40px;
+  right: -70px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
 footer {
     order: 2;
     margin-top: 100px;
@@ -109,7 +177,7 @@ footer {
     padding: 10px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 #botnav{
     align-self: flex-start;
